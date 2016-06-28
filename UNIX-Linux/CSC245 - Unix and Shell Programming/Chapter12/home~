@@ -1,0 +1,4 @@
+IFS=:
+line=$(grep "$1" /etc/passwd)
+set $line
+echo $6

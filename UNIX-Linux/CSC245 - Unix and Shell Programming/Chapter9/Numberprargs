@@ -1,0 +1,13 @@
+#
+#Print command line arguments one per line
+#
+
+number=1
+
+while [ "$#" -ne 0 ]
+do
+	echo "$number: $1"
+	shift
+	number=$((number + 1))
+done
+

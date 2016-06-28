@@ -1,0 +1,10 @@
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ColladoEx01.FrmColladoEx01.resources
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ColladoEx01.Resources.resources
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ColladoEx01.vbproj.GenerateResource.Cache
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\bin\Debug\ColladoEx01.exe
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\bin\Debug\ColladoEx01.pdb
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\bin\Debug\ColladoEx01.xml
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ColladoEx01.exe
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ColladoEx01.xml
+C:\Users\IRC114\Desktop\ColladoEx01\ColladoEx01\obj\Debug\ColladoEx01.pdb

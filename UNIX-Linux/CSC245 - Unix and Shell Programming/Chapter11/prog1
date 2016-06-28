@@ -1,0 +1,8 @@
+e1=100
+export e1
+echo $e2
+e2=200
+echo $e2
+e3=300; export e3
+sh -x ./prog2
+

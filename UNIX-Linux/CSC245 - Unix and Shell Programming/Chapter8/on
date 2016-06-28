@@ -1,0 +1,22 @@
+#
+#determine if someone is logged on
+
+#
+#
+#see if the correct number of arguments were supplied
+#
+if [ "$#" -ne 1 ]
+then
+	echo "Incorrect number of arguments"
+	echo "Usage: on user"
+else
+
+	user="$1"
+
+	if who | grep -w  "$user" > /dev/null
+	then
+		echo "$user is logged on"
+	else
+		echo "$user is not logged on"
+	fi
+fi

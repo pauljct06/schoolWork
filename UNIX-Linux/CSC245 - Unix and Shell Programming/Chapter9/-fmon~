@@ -1,0 +1,83 @@
+#
+# Check and Wait until a file exist or a user 
+#
+
+#set up default values
+
+mailopt=FALSE
+checkfile=FALSE
+interval=60
+
+
+# process command options
+
+while getopts fmt: option
+do
+	case "$option"
+	in
+		f) checkfile=TRUE;;		
+		m) mailopt=TRUE;;
+		t) interval=$OPTARG;;
+		\?) echo "Usage: mon [-m] [-f] [-t n] user"
+		    echo "    -m means to be informed by mail"
+		    echo "    -f means to check for existence of a file"
+		    echo "    -t means to check every n secs."
+		    exit 1;;
+	esac
+done
+
+#make sure a filename or username was specified
+
+if [ "$OPTIND" -gt "$#" ]
+then
+	echo "Missing filename or username!"
+	exit 2
+fi
+
+shiftcount=$((OPTIND - 1))
+shift $shiftcount
+arg=$1
+
+
+if [ $checkfile = TRUE ]
+
+#check for file existence
+then 
+	until [ -e "$arg" ]
+	do
+		sleep $interval
+	done
+
+else
+#check for username
+	until who | grep "^$arg" > /dev/null
+	do
+		sleep $interval
+	done
+fi
+
+
+#
+# When we reach this point, the filename exist or username is logged on
+#
+
+if [ "$mailopt" = FALSE ]
+then
+	if [ $checkfile = TRUE ]
+	then
+		echo "$arg exist"
+	else
+		echo "$arg has logged on"
+	fi
+
+else
+	if [ $checkfile = TRUE ]
+	then
+		runner=$(who am i | cut -c1-8)
+		echo "$arg exist" | mail $runner
+	else
+		runner=$(who am i | cut -c1-8)
+		echo "$arg has logged on" | mail $runner
+	fi
+fi
+

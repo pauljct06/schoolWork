@@ -1,0 +1,4 @@
+IFS=:
+#line=$(grep "root:x:0:0::/root:/bin/bash" /etc/passwd)
+set root:x:0:0::/root:/bin/bash
+echo $6

@@ -1,0 +1,8 @@
+case "$1"
+in
+	[Yy]es)	;;
+	[Yy])	;;
+	YES)	;;
+	yes)	;;
+	*)	exit 1;;
+esac

@@ -1,0 +1,4 @@
+allcaps=$(echo $1 | sed 's/[a-z]/[A-Z]/')
+grep $allcaps phonebook 
+
+

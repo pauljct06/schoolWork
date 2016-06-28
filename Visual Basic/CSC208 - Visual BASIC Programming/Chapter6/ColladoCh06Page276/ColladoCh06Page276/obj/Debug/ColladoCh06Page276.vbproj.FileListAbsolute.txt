@@ -1,0 +1,41 @@
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.exe
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.pdb
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.xml
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ResolveAssemblyReference.cache
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmColladoCh06Page276.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.Resources.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.vbproj.GenerateResource.Cache
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.exe
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.xml
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.pdb
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmSplashScreen.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.AboutBox1.resources
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.exe
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.xml
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.pdb
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.exe
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.pdb
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.xml
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.AboutBox1.resources
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmColladoCh06Page276.resources
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmSplashScreen.resources
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.Resources.resources
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.vbproj.GenerateResource.Cache
+C:\Users\Paul\Documents\My Dropbox\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmSummaryForm.resources
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.exe
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.xml
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.pdb
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.exe
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.pdb
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\bin\Debug\ColladoCh06Page276.xml
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ResolveAssemblyReference.cache
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.AboutBox1.resources
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmColladoCh06Page276.resources
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmSplashScreen.resources
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.Resources.resources
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.FrmSummaryForm.resources
+E:\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.vbproj.GenerateResource.Cache
+G:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.exe
+G:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.xml
+G:\Paul\CSC208-VISUAL BASIC\Chapter6\ColladoCh06Page276\ColladoCh06Page276\obj\Debug\ColladoCh06Page276.pdb

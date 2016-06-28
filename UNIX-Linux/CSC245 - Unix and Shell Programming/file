@@ -1,0 +1,40 @@
+Directory: /home/FA11/clas/01/15/Documents/Chapter 2_ex1
+Mon Sep 19 19:54:19 EDT 2011
+clas0115@localhost:~/Documents/Chapter 2_ex1> ls
+feb96     jan19.02  jan5.02  jan96  jan98  memo1   memo2
+jan12.02  jan26.02  jan95    jan97  mar98  memo10  memo2.sv
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo *
+feb96 jan12.02 jan19.02 jan26.02 jan5.02 jan95 jan96 jan97 jan98 mar98 memo1 memo10 memo2 memo2.sv
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo m[a-df-z]*
+mar98
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo jan*
+jan12.02 jan19.02 jan26.02 jan5.02 jan95 jan96 jan97 jan98
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo ?????
+feb96 jan95 jan96 jan97 jan98 mar98 memo1 memo2
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo jan?? feb?? mar??
+jan95 jan96 jan97 jan98 feb96 mar98
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo *[!0-9]
+memo2.sv
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo [A-Z]*
+feb96 jan12.02 jan19.02 jan26.02 jan5.02 jan95 jan96 jan97 jan98 mar98 memo1 memo10 memo2 memo2.sv
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo *.*
+jan12.02 jan19.02 jan26.02 jan5.02 memo2.sv
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo *02
+jan12.02 jan19.02 jan26.02 jan5.02
+clas0115@localhost:~/Documents/Chapter 2_ex1> echo [fjm][ae][bnr]*
+feb96 jan12.02 jan19.02 jan26.02 jan5.02 jan95 jan96 jan97 jan98 mar98
+clas0115@localhost:~/Documents/Chapter 2_ex1> ls | wc -l
+14
+clas0115@localhost:~/Documents/Chapter 2_ex1> who | wc -l
+2
+clas0115@localhost:~/Documents/Chapter 2_ex1> ls *.c | wc -l
+ls: cannot access *.c: No such file or directory
+0
+clas0115@localhost:~/Documents/Chapter 2_ex1> ls*.c | wc -l
+bash: ls*.c: command not found
+0
+clas0115@localhost:~/Documents/Chapter 2_ex1> ls *.c | wc -l
+ls: cannot access *.c: No such file or directory
+0
+clas0115@localhost:~/Documents/Chapter 2_ex1> 
+

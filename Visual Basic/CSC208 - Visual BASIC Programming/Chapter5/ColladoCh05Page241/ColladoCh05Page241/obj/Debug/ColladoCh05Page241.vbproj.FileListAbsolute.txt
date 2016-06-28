@@ -1,0 +1,10 @@
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ResolveAssemblyReference.cache
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ColladoCh05Page241.FrmColladoCh05Page241.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ColladoCh05Page241.Resources.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ColladoCh05Page241.vbproj.GenerateResource.Cache
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\bin\Debug\ColladoCh05Page241.exe
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\bin\Debug\ColladoCh05Page241.pdb
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\bin\Debug\ColladoCh05Page241.xml
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ColladoCh05Page241.exe
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ColladoCh05Page241.xml
+E:\Paul\CSC208-VISUAL BASIC\Chapter5\ColladoCh05Page241\ColladoCh05Page241\obj\Debug\ColladoCh05Page241.pdb

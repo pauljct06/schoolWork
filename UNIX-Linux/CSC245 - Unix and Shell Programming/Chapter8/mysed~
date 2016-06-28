@@ -1,0 +1,9 @@
+test1=$(sed $1 $2)
+echo $test1 > tempphone
+
+if [ "$test1" ]
+then
+	mv tempphone $2
+fi
+
+

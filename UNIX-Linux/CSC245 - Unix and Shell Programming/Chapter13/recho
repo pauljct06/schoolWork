@@ -1,0 +1,6 @@
+arg=$#
+while [ $arg -gt 0 ]
+do
+	eval echo \"\$$arg \\c\"
+	arg=$((arg - 1))
+done

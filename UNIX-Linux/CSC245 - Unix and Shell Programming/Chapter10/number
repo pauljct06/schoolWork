@@ -1,0 +1,14 @@
+#
+# Number lines from files given as arguments or from
+# standard input if none supplied
+#
+
+lineno=1
+
+cat $* |
+while read -r line
+do
+	echo "$lineno: $line"
+	lineno=$((lineno + 1))
+done
+

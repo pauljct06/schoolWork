@@ -1,0 +1,95 @@
+#
+# Copy a file --final version
+#
+
+numargs=$#			# save this for later use
+filelist=
+copylist=
+
+#
+# Process the arguments, storing all but the last in filelist
+#
+
+if [ "$#" -eq 0 ]
+then
+	echo -e "Source name(s):\c"
+	read n	
+	
+	for arg in $n
+	do
+		filelist="$filelist $arg"
+		numargs=$((numargs + 1))
+	done
+	
+	echo -e "Destination filename or folder:\c"
+	read answer
+	
+	to="$answer"
+	numargs=$((numargs + 1))
+else
+
+	while [ "$#" -gt 1 ]
+	do
+		filelist="$filelist $1"
+		shift
+	done
+
+	to="$1"
+fi
+
+#
+# If less than two args, or if more than two args and last arg
+# is not a directory, then issue an error message
+#
+
+if [ "$numargs" -lt 2 -o "$numargs" -gt 2 -a ! -d "$to" ]
+then
+	echo "Usage: mycp file1 file2"
+	echo "       mycp file(s) dir"
+	exit 1
+fi
+
+#
+# Sequence through each file in filelist
+#
+
+for from in $filelist
+do
+	#
+	# See if destination file is a directory
+	#
+
+	if [ -d "$to" ]
+	then
+		tofile="$to/$(basename $from)"
+	else
+		tofile="$to"
+	fi
+
+	#
+	# Add file to copylist if file doesn't already exist
+	# or if user says it's ok to overwrite
+	#
+
+	if [ -e "$tofile" ]
+	then
+		echo -e "$tofile already exist, overwrite (yes/no) \c"
+		read answer
+
+		if [ "$answer" = yes ]
+		then
+			copylist="$copylist $from"
+		fi
+	else
+		copylist="$copylist $from"
+	fi
+done
+
+#
+# Now do the copy -- first make sure there's something to copy
+#
+
+if [ -n "$copylist" ]
+then
+	cp $copylist $to	#proceed with the copy
+fi

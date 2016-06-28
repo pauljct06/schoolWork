@@ -1,0 +1,126 @@
+#
+# Check and Wait until a file exist or a user 
+#
+
+#set up default values
+
+mailopt=FALSE
+checkfile=FALSE
+interval=60
+logout=FALSE
+
+
+# process command options
+
+while getopts fmnt: option
+do
+	case "$option"
+	in
+		f) checkfile=TRUE;;		
+		m) mailopt=TRUE;;
+		n) logout=TRUE;;
+		t) interval=$OPTARG;;
+		\?) echo "Usage: mon [-f] [-m] [-n] [-t n] user"
+		    echo "    -f means to check for existence of a file"
+		    echo "    -m means to be informed by mail"
+		    echo "    -n means to check for the removal of a file or if a user has logout"
+		    echo "    -t means to check every n secs."
+		    exit 1;;
+	esac
+done
+
+#make sure a filename or username was specified
+
+if [ "$OPTIND" -gt "$#" ]
+then
+	echo "Missing filename or username!"
+	exit 2
+fi
+
+shiftcount=$((OPTIND - 1))
+shift $shiftcount
+arg=$1
+
+
+if [ "$checkfile" = TRUE ]
+
+#check for file existence
+then 
+	if [ "$logout" = FALSE ]
+	then
+		until [ -e "$arg" ]
+		do
+			sleep $interval
+		done
+	else
+		until [ ! -e "$arg" ]
+		do
+			sleep $interval
+		done
+	fi
+
+else
+#check for username
+
+	if [ "$logout" = FALSE ]
+	then
+
+		until who | grep "^$arg" > /dev/null
+		do
+			sleep $interval
+		done
+	else
+		while who | grep "^$arg" > /dev/null
+		do
+			sleep $interval
+		done
+	fi
+fi
+
+
+#
+# When we reach this point, the filename exist or username is logged on
+#
+
+if [ "$mailopt" = FALSE ]
+then
+	if [ "$checkfile" = TRUE ]
+	then
+		if [ "$logout" = FALSE ]
+		then
+			echo "$arg exist"
+		else
+			echo "$arg has been removed"
+		fi
+	else
+		if [ "$logout" = FALSE ]
+		then
+			echo "$arg has logged on"
+		else
+			echo "$arg has logged off"
+		fi
+	fi
+
+else
+	if [ "$checkfile" = TRUE ]
+	then
+		if [ "$logout" = FALSE ]
+		then
+			runner=$(who am i | cut -c1-8)
+			echo "$arg exist" | mail $runner
+		else
+			runner=$(who am i | cut -c1-8)
+			echo "$arg has been removed" | mail $runner
+		fi
+	else
+		if [ "$logout" = FALSE ]		
+		then
+			runner=$(who am i | cut -c1-8)
+			echo "$arg has logged on" | mail $runner
+		else
+			runner=$(who am i | cut -c1-8)
+			echo "$arg has logged off" | mail $runner
+		fi
+	fi
+fi
+

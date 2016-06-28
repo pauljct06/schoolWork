@@ -1,0 +1,13 @@
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmColladoCh01Page58.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+E:\Paul\CSC208-VISUAL BASIC\Chapter1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Paul\Downloads\CSC208-VISUAL BASIC\Chapter2\ColladoCh02Page92\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Paul\Downloads\CSC208-VISUAL BASIC\Chapter2\ColladoCh02Page92\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Paul\Downloads\CSC208-VISUAL BASIC\Chapter2\ColladoCh02Page92\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

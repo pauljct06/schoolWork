@@ -1,0 +1,9 @@
+#
+# Add pairs of integers on standard input
+#
+
+while read n1 n2
+do
+	echo $((n1 + n2))
+done
+

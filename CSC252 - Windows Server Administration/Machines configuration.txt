@@ -1,0 +1,34 @@
+w7a01
+
+Comp name w7a01
+password  Password01
+IP 172.16.150.201
+
+---------------------------------
+
+w7b02
+
+Comp name w7b02
+password  Password02
+IP 10.10.150.202
+
+
+---------------------------------
+
+w2k8a01
+
+Comp name w2k8a01
+password  Password01
+IP 172.16.150.206
+
+
+---------------------------------
+
+w2k8b02
+
+Comp name w2k8b02
+password  Password02
+IP 10.10.150.207
+
+
+---------------------------------

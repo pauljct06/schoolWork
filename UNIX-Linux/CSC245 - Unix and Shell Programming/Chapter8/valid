@@ -1,0 +1,10 @@
+test1=$(echo $1 | sed 's/[_a-zA-Z0-9]//g')
+
+test2=$(echo $1 |sed 's/[^_a-zA-Z]*//')
+
+if [ -z "$test1" -a "$1" = "$test2" ]
+then 
+	echo "yes"
+else
+	echo "no"
+fi

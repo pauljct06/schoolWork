@@ -1,0 +1,15 @@
+#
+# Look someone up in the phone book
+#
+
+if [ "$#" -ne 1 ]
+then
+	echo "Incorrect number of arguments"
+	echo "Usage: lu name"
+	exit 1
+fi
+
+name=$1
+grep -i "$name" $PHONEBOOK
+
+

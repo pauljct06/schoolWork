@@ -1,0 +1,14 @@
+#
+# Count words on a standard input
+#
+
+count=0
+while read line
+do
+	set -- $line
+	count=$(( count + $# ))
+done
+
+echo $count
+
+

@@ -1,0 +1,21 @@
+//filename: PaulCollado.txt
+//Paul Collado
+//CSC-162 In-Class Excersise Testing Lab 3
+
+Room ONE info: Room Dimension in sqft are:
+Width is: 5.0ft
+Length is:  10.0ft
+Area of the room is: 50.00sqft
+Carpet cost per sqft is: $8.25
+Total cost of carpet is: $412.50
+Room TWO info: Room Dimension in sqft are:
+Width is: 20.0ft
+Length is:  40.0ft
+Area of the room is: 800.00sqft
+Carpet cost per sqft is: $7.75
+Total cost of carpet is: $6200.00
+Press any key to continue . . .
+
+
+YES I GOT THE RESULTS BECAUSE I FOLLOWED THE INSTRUCTIONS AND 
+NAMED MY CLASSED LIKE I WAS SUPOSSED TO.
